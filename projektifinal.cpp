@@ -23,6 +23,9 @@ void Kalkulatori() {
         cout << "Shkruani numrin e notave qe e keni: ";
         cin >> numriNotave;
 
-        return;
+        if (numriNotave <= 0) {
+            cout << "Numri i notave duhet te jete me i madh se zero.\n";
+            return;
+        }
     }
 }
