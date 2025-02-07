@@ -31,3 +31,24 @@ void menuKryesore() {
         }
     } while (zgjedhja != 3);
 }
+
+
+cout << "1. Menaxho studentet dhe notat\n";
+cout << "2. Perdor kalkulatorin\n";
+cout << "3. Dil\n";
+cout << "Zgjedhni: ";
+cin >> zgjedhja;  
+ s idhsjnkkaksudgakjadfalkfioxhzuicgiudd
+
+         default: cout << "Zgjedhja nuk u gjend ne sherbimet tona. Provoni perseri.\n";
+        }
+    } while (zgjedhja != 3);
+}
+
+
+cout << "1. Menaxho studentet dhe notat\n";
+cout << "2. Perdor kalkulatorin\n";
+cout << "3. Dil\n";
+cout << "Zgjedhni: ";
+cin >> zgjedhja;
+s idhsjnkkaksudgakjadfalkfioxhzui
