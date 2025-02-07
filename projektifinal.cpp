@@ -10,22 +10,9 @@ void menaxhoNotat();
 
 
 int main() {
+
     menuKryesore();
+
     return 0;
 }
 
-void Kalkulatori() {
-    char perserit;
-    
-    do {
-        cout << "Kalkulatori\n";
-        int numriNotave;
-        cout << "Shkruani numrin e notave qe e keni: ";
-        cin >> numriNotave;
-
-        if (numriNotave <= 0) {
-            cout << "Numri i notave duhet te jete me i madh se zero.\n";
-            return;
-        }
-    }
-}
