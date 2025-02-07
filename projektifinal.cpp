@@ -63,7 +63,45 @@ do
          break;
 
      }
+     case 4: {
 
+         if (numriStudenteve == 0) {
+
+             cout << "Nuk ka studente per te vleresuar.\n";
+
+             break;
+
+         }
+
+         int meELarta = notateStudenteve[0].notat[0];
+
+         int meEUlta = notateStudenteve[0].notat[0];
+
+         for (int i = 0; i < numriStudenteve; ++i) {
+
+             for (int j = 0; j < notateStudenteve[i].numriNotave; ++j) {
+
+                 meELarta = max(meELarta, notateStudenteve[i].notat[j]);
+
+                 meEUlta = min(meEUlta, notateStudenteve[i].notat[j]);
+
+             }
+
+         }
+
+         cout << "Nota me e larte: " << meELarta << "\n";
+
+         cout << "Nota me e ulet: " << meEUlta << "\n";
+
+         break;
+
+     }
+
+     case 5: cout << "Kthyer tek Menuja kryesore...\n"; break;
+
+     default: cout << "Zgjedhje jo valide. Provoni perseri.\n";
+
+}
      case 5: cout << "Kthyer tek Menuja kryesore...\n"; break;
 
      default: cout << "Zgjedhje jo valide. Provoni perseri.\n";
