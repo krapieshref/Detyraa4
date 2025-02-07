@@ -31,5 +31,3 @@ void menuKryesore() {
         }
     } while (zgjedhja != 3);
 }
-
-
