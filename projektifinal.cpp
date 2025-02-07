@@ -42,9 +42,9 @@ do
             cin >> nota;
 
             if (nota < 0)
-                cout << "Nuk ka note negative!\n";
+                cout << "Nuk ka note negative";
             else if (nota < 6)
-                cout << "Ju nuk keni kaluar lenden!\n";
+                cout << "Ju nuk keni kaluar lenden!";
             else if (nota > 10)
                 cout << "Nuk ekziston kjo note!\n";
 
