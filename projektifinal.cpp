@@ -30,6 +30,84 @@ do
      return;
     }
 
+     case 4: {
+
+         if (numriStudenteve == 0) {
+
+             cout << "Nuk ka studente per te vleresuar.\n";
+
+             break;
+
+         }
+
+         int meELarta = notateStudenteve[0].notat[0];
+
+         int meEUlta = notateStudenteve[0].notat[0];
+
+         for (int i = 0; i < numriStudenteve; ++i) {
+
+             for (int j = 0; j < notateStudenteve[i].numriNotave; ++j) {
+
+                 meELarta = max(meELarta, notateStudenteve[i].notat[j]);
+
+                 meEUlta = min(meEUlta, notateStudenteve[i].notat[j]);
+
+             }
+
+         }
+
+         cout << "Nota me e larte: " << meELarta << "\n";
+
+         cout << "Nota me e ulet: " << meEUlta << "\n";
+
+         break;
+
+     }
+     case 4: {
+
+         if (numriStudenteve == 0) {
+
+             cout << "Nuk ka studente per te vleresuar.\n";
+
+             break;
+
+         }
+
+         int meELarta = notateStudenteve[0].notat[0];
+
+         int meEUlta = notateStudenteve[0].notat[0];
+
+         for (int i = 0; i < numriStudenteve; ++i) {
+
+             for (int j = 0; j < notateStudenteve[i].numriNotave; ++j) {
+
+                 meELarta = max(meELarta, notateStudenteve[i].notat[j]);
+
+                 meEUlta = min(meEUlta, notateStudenteve[i].notat[j]);
+
+             }
+
+         }
+
+         cout << "Nota me e larte: " << meELarta << "\n";
+
+         cout << "Nota me e ulet: " << meEUlta << "\n";
+
+         break;
+
+     }
+
+     case 5: cout << "Kthyer tek Menuja kryesore...\n"; break;
+
+     default: cout << "Zgjedhje jo valide. Provoni perseri.\n";
+
+}
+     case 5: cout << "Kthyer tek Menuja kryesore...\n"; break;
+
+     default: cout << "Zgjedhje jo valide. Provoni perseri.\n";
+
+}
+
     double shumaNotave = 0;
     int shumaECTS = 0;
 
@@ -42,11 +120,11 @@ do
             cin >> nota;
 
             if (nota < 0)
-                cout << "Nuk ka note negative!\n";
+                cout << "Nuk ka note negative";
             else if (nota < 6)
-                cout << "Ju nuk keni kaluar lenden!\n";
+                cout << "Ju nuk keni kaluar lenden!";
             else if (nota > 10)
-                cout << "Nuk ekziston kjo note!\n";
+                cout << "Nuk ekziston kjo note!";
 
         } while (nota < 6 || nota > 10);
         do {
