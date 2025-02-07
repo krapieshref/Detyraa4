@@ -63,3 +63,7 @@ do
 
 }
 
+    void menuKryesore();
+    void menaxhoNotat();
+    void menuKryesore();
+    void menaxhoNotat();
