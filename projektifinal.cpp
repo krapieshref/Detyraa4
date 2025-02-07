@@ -46,7 +46,7 @@ do
             else if (nota < 6)
                 cout << "Ju nuk keni kaluar lenden!";
             else if (nota > 10)
-                cout << "Nuk ekziston kjo note!\n";
+                cout << "Nuk ekziston kjo note!";
 
         } while (nota < 6 || nota > 10);
         do {
